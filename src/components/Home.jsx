@@ -8,14 +8,17 @@ import Footer from './Footer.jsx';
 class Home extends Component {
   render() {
     return (
-      <Container style={{ padding: '30px 0px', margin: 0 }}>
+      <Container style={{ margin: 0 }}>
         <div
           className="centerAlign"
           style={{
             maxWidth: '820px',
             marginLeft: 'auto',
             marginRight: 'auto',
-            minWidth: '300px'
+            minWidth: '300px',
+            boxShadow: '0 -3px 10px 0 rgba(0,0,0,.0785)',
+            backgroundColor: '#ffffff',
+            padding: '30px 0px'
           }}
         >
           <Row

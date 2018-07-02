@@ -39,7 +39,7 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div style={{ paddingLeft: '20px' }}>
+      <div style={{ paddingLeft: '20px', paddingRight: '20px' }}>
         <Nav tabs style={{ paddingTop: '20px' }}>
           <NavItem>
             <NavLink
