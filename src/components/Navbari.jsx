@@ -365,7 +365,7 @@ export default class Example extends React.Component {
                   />
                 </Card>
               </Col>
-              <Col sm="4">
+              <Col sm="5">
                 <Card body>
                   <CardTitle>Contact</CardTitle>
                   <CardText>
@@ -379,7 +379,7 @@ export default class Example extends React.Component {
                   </CardText>
                 </Card>
               </Col>
-              <Col sm="2">
+              <Col sm="3">
                 <Card body>
                   <CardText>
                     <a href="https://www.facebook.com/anbu.poosakkannu">
