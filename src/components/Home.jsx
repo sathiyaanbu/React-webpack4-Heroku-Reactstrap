@@ -8,8 +8,13 @@ import Footer from './Footer.jsx';
 class Home extends Component {
   render() {
     return (
-      <Container style={{ padding: '30px' }}>
-        <Row style={{ fontFamily: 'Merriweather Sans, sans-serif' }}>
+      <Container style={{ padding: '30px 0px', margin: 0 }}>
+        <Row
+          style={{
+            fontFamily: 'arial',
+            paddingLeft: '20px'
+          }}
+        >
           <Col sm="6">
             <h1>Anbu Poosakkannu</h1>
 

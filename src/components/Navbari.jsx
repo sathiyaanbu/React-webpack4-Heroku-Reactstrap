@@ -39,7 +39,7 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div style={{ paddingLeft: '20px' }}>
         <Nav tabs style={{ paddingTop: '20px' }}>
           <NavItem>
             <NavLink
@@ -124,7 +124,7 @@ export default class Example extends React.Component {
                   List of publications (most recent first)
                 </h4>
                 <span>
-                  <ol>
+                  <ol style={{ paddingLeft: '20px' }}>
                     <li>
                       <b>Anbu Poosakkannu,</b> Riitta Nissinen, Minna-Maarit
                       Kytöviita. 2017. Native arbuscular mycorrhizal symbiosis
@@ -182,7 +182,7 @@ export default class Example extends React.Component {
                   Manuscripts
                 </h4>
                 <span>
-                  <ol>
+                  <ol style={{ paddingLeft: '20px' }}>
                     <li>
                       Dinesh Sanka Loganathachetti, <b>Anbu Poosakkannu,</b>
                       Sundararaman Muthuraman. Bacterial diversity and community
@@ -201,7 +201,7 @@ export default class Example extends React.Component {
                   Presentations /Posters
                 </h4>
                 <span>
-                  <ol>
+                  <ol style={{ paddingLeft: '20px' }}>
                     <li>
                       <b> Anbu Poosakkannu,</b> Riitta Nissinen, Minna- Maarit
                       Kytöviita. (2016), A grass associated microbial diversity
@@ -298,7 +298,7 @@ export default class Example extends React.Component {
                   Scholarships /Grants obtained
                 </h4>
                 <span>
-                  <ol>
+                  <ol style={{ paddingLeft: '20px' }}>
                     <li>
                       Finnish cultural foundation (Personal grant: May
                       2016-October 2016).
