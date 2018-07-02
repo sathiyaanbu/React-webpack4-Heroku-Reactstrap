@@ -1,0 +1,11 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .centerAlign {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .centerAlign {
+    max-width: 680px;
+  }
+}

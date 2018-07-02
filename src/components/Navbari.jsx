@@ -93,7 +93,7 @@ export default class Example extends React.Component {
               <Col>
                 <img
                   src={land}
-                  style={{ paddingTop: '20px', width: '100%', height: '360px' }}
+                  style={{ paddingTop: '20px', width: '100%' }}
                   className="img-fluid"
                   alt="Responsive"
                 />
@@ -126,14 +126,14 @@ export default class Example extends React.Component {
                 <span>
                   <ol style={{ paddingLeft: '20px' }}>
                     <li>
-                      <b>Anbu Poosakkannu,</b> Riitta Nissinen, Minna-Maarit
+                      <b>Anbu Poosakkannu, </b> Riitta Nissinen, Minna-Maarit
                       Kytöviita. 2017. Native arbuscular mycorrhizal symbiosis
                       changes leaf bacterial community composition. Mycorrhiza;
                       27(8): 801-810. (Impact factor: 3.047; Citations: 0).
                     </li>
                     <br />
                     <li>
-                      Dinesh Sanka Loganathachetti, <b>Anbu Poosakkannu*,</b>
+                      Dinesh Sanka Loganathachetti, <b>Anbu Poosakkannu*, </b>
                       Sundararaman Muthuraman*. 2017. Fungal community
                       assemblage of different soil compartments in mangrove
                       ecosystem. Scientific reports; DOI:
@@ -151,7 +151,7 @@ export default class Example extends React.Component {
                     <br />
                     <li>
                       Dinesh Sanka Loganathachetti, Sundararaman Muthuraman,
-                      <b>Anbu Poosakkannu</b>, Balamurugan Sadaiyappan. 2016.
+                      <b> Anbu Poosakkannu</b>, Balamurugan Sadaiyappan. 2016.
                       Pyrosequencing based seasonal observation of prokaryotic
                       diversity in pneumatophore associated soil of Avicennia
                       marina. Current microbiology. 72(1):68-74. (Impact factor:
@@ -184,7 +184,7 @@ export default class Example extends React.Component {
                 <span>
                   <ol style={{ paddingLeft: '20px' }}>
                     <li>
-                      Dinesh Sanka Loganathachetti, <b>Anbu Poosakkannu,</b>
+                      Dinesh Sanka Loganathachetti, <b>Anbu Poosakkannu, </b>
                       Sundararaman Muthuraman. Bacterial diversity and community
                       structure analysis of rhizosphere-pneumatophore-bulk
                       marine sediment of Avicennia marina. Submitted.
@@ -203,7 +203,7 @@ export default class Example extends React.Component {
                 <span>
                   <ol style={{ paddingLeft: '20px' }}>
                     <li>
-                      <b> Anbu Poosakkannu,</b> Riitta Nissinen, Minna- Maarit
+                      <b> Anbu Poosakkannu,</b> Riitta Nissinen, Minna-Maarit
                       Kytöviita. (2016), A grass associated microbial diversity
                       and structure across the two successional stages of arctic
                       inland dunes. Oral presentation in annual conference 2016
@@ -212,7 +212,7 @@ export default class Example extends React.Component {
                     </li>
                     <br />
                     <li>
-                      <b>Anbu Poosakkannu</b>, Riitta Nissinen, Minna- Maarit
+                      <b>Anbu Poosakkannu</b>, Riitta Nissinen, Minna-Maarit
                       Kytöviita. (2015), Plant associated bacterial communities
                       in two different successional stages of sub-Arctic sand
                       dune ecosystem. Poster presentation in 13th Symposium on
@@ -230,7 +230,7 @@ export default class Example extends React.Component {
                     <br />
                     <li>
                       Govindraj Mohanraj, Ashokkumar Kaliyaperumal,
-                      <b>Anbu Poosakkannu (2008),</b> Aerobic Rice Breeding- A
+                      <b> Anbu Poosakkannu (2008),</b> Aerobic Rice Breeding- A
                       new tool for water scarcity management. Oral presentation
                       in International symposium on Water harvesting: bringing
                       green revolution to rainfed areas held at TNAU,
@@ -253,47 +253,61 @@ export default class Example extends React.Component {
                 at University of Jyväskylä, Finland.
                 <br />
                 Master of Science in Biotechnology (2008) at Tamil Nadu
-                Agricultural University, Coimbatore, India. Bachelor of Science
-                in Agriculture (2006) at Tamil Nadu Agricultural University,
-                Coimbatore, India.
+                Agricultural University, Coimbatore, India.
+                <br />
+                Bachelor of Science in Agriculture (2006) at Tamil Nadu
+                Agricultural University, Coimbatore, India.
                 <h4 style={{ paddingTop: '20px', paddingBottom: '10px' }}>
                   Latest research work
                 </h4>
                 Post-doctoral researcher (March 2017 to October 2017),
-                University of Jyväskylä, Finland Microbes alter successional
-                pathways.
+                University of Jyväskylä, Finland.
+                <br />
+                Microbes alter successional pathways.
                 <h4 style={{ paddingTop: '20px', paddingBottom: '10px' }}>
                   Previous research work
                 </h4>
                 Doctoral researcher (November 2012 to February 2017), University
-                of Jyväskylä, Finland. Endosphere microbial community assemblage
-                of an inland sand dune colonizing plant.
+                of Jyväskylä, Finland.
+                <br />
+                Endosphere microbial community assemblage of an inland sand dune
+                colonizing plant.
                 <br />
                 <br />
                 DAAD researcher (October 2010 to February 2012), MPICE, Jena,
-                Germany. Revealing Manduca sexta response to Nicotiana attenuata
+                Germany.
+                <br />
+                Revealing <i>Manduca sexta</i> response to
+                <i> Nicotiana attenuata </i>
                 allelochemcials by Plant mediated RNAi approach.
                 <br />
                 <br />
                 Research fellow (August 2009 to February 2010) IARI, New Delhi,
-                India. Impact assessment of Bt cotton on soil microbial
-                structure and function.
+                India.
+                <br />
+                Impact assessment of Bt cotton on soil microbial structure and
+                function.
                 <br />
                 <br />
                 Research fellow (April 2009 to July 2009), University of Delhi,
-                New Delhi, India. A genomics and proteomic approach to identify,
-                characterize, clone and over-express Seabuckthorn antifreeze
-                proteins (AFP) for crop improvement and food industry.
+                New Delhi, India.
+                <br />
+                A genomics and proteomic approach to identify, characterize,
+                clone and over-express Seabuckthorn antifreeze proteins (AFP)
+                for crop improvement and food industry.
                 <br />
                 <br />
-                Master student (2006 to 2008) TNAU, Coimbatore, India.
+                Master student (2006 to 2008), TNAU, Coimbatore, India.
+                <br />
                 Histochemical characterization of rice endogenous
                 β-glucuronidase and cloning the orthologous gene from
-                Bradyrhizobium japonicum.
+                <i> Bradyrhizobium japonicum.</i>
                 <br />
                 <br />
-                Bachelor student (2002 to 2006) Isolation and Purification of
-                soil microbes from Coastal soils of Trichendur, Tamil Nadu.
+                Bachelor student (2002 to 2006),TNAU, Coimbatore, India.
+                <br />
+                Isolation and Purification of soil microbes from Coastal soils
+                of Trichendur, Tamil Nadu.
                 <h4 style={{ paddingTop: '20px', paddingBottom: '10px' }}>
                   Scholarships /Grants obtained
                 </h4>
@@ -304,6 +318,13 @@ export default class Example extends React.Component {
                       2016-October 2016).
                     </li>
                     <li>
+                      Travel grant from Department of Biological and
+                      Environmental Science, University of Jyväskylä to attend
+                      and present (oral) at annual conference (March) 2016 of
+                      the Association for General and Applied Microbiology
+                      (VAAM) held at Jena, Germany.
+                    </li>
+                    <li>
                       The Ella and Georg Ehrnrooth Foundation (Project funding:
                       June 2015).
                     </li>
@@ -311,10 +332,7 @@ export default class Example extends React.Component {
                       Travel grant from Department of Biological and
                       Environmental Science, University of Jyväskylä to attend
                       and present a poster in 13th Symposium on Bacterial
-                      Genetics and Ecology (June 2015) held at Milan, Italy and
-                      oral presentation at annual conference (March) 2016 of the
-                      Association for General and Applied Microbiology (VAAM)
-                      held at Jena, Germany.
+                      Genetics and Ecology (June 2015) held at Milan, Italy.
                     </li>
                     <li>
                       Oskar Öflunds Stiftelse (Personal grant: August 2014 to

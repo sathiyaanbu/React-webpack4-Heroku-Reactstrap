@@ -7,11 +7,7 @@
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
-  "keywords": [
-    "React",
-    "webpack4",
-    "Heroku"
-  ],
+  "keywords": ["React", "webpack4", "Heroku"],
   "author": "Sathiya Anbu",
   "license": "ISC",
   "devDependencies": {
